@@ -1,4 +1,4 @@
-/* add code here to make your image 300px tall, have a border-radius of 25px, and a 1px black solid border.*/
+/* add code here to make your image 300px tall, have a border-radius of 25px, and a 1px black solid border. <DONE> */
 
 body {
 background-color: skyblue;
@@ -9,21 +9,36 @@ font-family: san-serif;
 text-align: center;
  }
 
-img {
-  height: 300px;
-  width: 300px;
-  border-radius: 30px;
-  /* text-align: center; */
-  display: block;
-  margin: auto;
-
-}
 
 #tagline { 
   text-align: left;
-
+  margin: 20px; 
 }
 
+
+img {
+  height: 300px;
+  width: 300px;
+  border-radius: 25px;
+  /* text-align: center; */
+  display: block;
+  margin: auto;
+  border: black solid;
+}
+
+h5 {
+  font-style: italic;
+  font-size: medium;
+  margin: 20px; 
+}
+
+/* ?? Click here! button the margin not working */
+#button {
+  margin: 20px; 
+}
+
+
+/* ! only h4 tag is in italic */
 h4 {
   margin: 20px;
   font-style: italic;
@@ -40,15 +55,15 @@ ol li {
 font-size: large;
 color: green;
  }
+
 /* ?? .last-p tag below shows in italic, but I don't have italic tag below(why?) */
 .last-P {
   font-weight: bold;
   margin: 10px;
   font-size: large;
   color: #ff00d4;
-
-
 } 
-/* add code here to change the color and font family of your band's name/title */
 
-/* Bonus: change the color of your list elements */
+/* add code here to change the color and font family of your band's name/title <DONE> */
+
+/* Bonus: change the color of your list elements <DONE> */
