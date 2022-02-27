@@ -9,12 +9,14 @@ font-family: san-serif;
 text-align: center;
  }
 
- /* ?? can't get the image to be centered */
 img {
   height: 300px;
   width: 300px;
   border-radius: 30px;
-  text-align: center;
+  /* text-align: center; */
+  display: block;
+  margin: auto;
+
 }
 
 #tagline { 
@@ -43,6 +45,8 @@ color: green;
   font-weight: bold;
   margin: 10px;
   font-size: large;
+  color: #ff00d4;
+
 
 } 
 /* add code here to change the color and font family of your band's name/title */
